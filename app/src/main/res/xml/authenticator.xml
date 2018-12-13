@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accountPreferences="@xml/account_preferences"
+    android:accountType="com.study.account"
+    android:icon="@drawable/ic_account_balance"
+    android:label="@string/account_label"
+    android:smallIcon="@drawable/ic_drafts_black">
+    <!--
+       android:accountPreferences这个属性添加之后，当
+       只添加一个账户的时候也会显示这个应用中的应用账户列表
+       android:accountType的账户类型，具有唯一性
+       android:icon和android:smallIcon都是展示图标的，
+       不过大多数情况下都是显示android:icon指定的图标
+       android:label指定账户列表下对应应用的标签
+    -->
+</account-authenticator>

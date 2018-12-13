@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sync-adapter xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accountType="com.study.account"
+    android:allowParallelSyncs="false"
+    android:contentAuthority="com.study.account.provider"
+    android:isAlwaysSyncable="true"
+    android:supportsUploading="false"
+    android:userVisible="false">
+    <!--
+        android:accountType跟authenticator.xml中的android:accountType一致
+        android:allowParallelSyncs是否支持并行同步
+        android:contentAuthority指定相应内容提供者的authority
+        android:isAlwaysSyncable是否支持同步
+        android:supportsUploading是否支持上传
+        android:userVisible用户是否可见，false时用户看不到APP的同步时间
+    -->
+</sync-adapter>

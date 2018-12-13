@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<PreferenceCategory android:title="显示一排偏好">
+        <CheckBoxPreference
+            android:key="checkbox_preference"
+            android:summary="这是一个开关button"
+            android:title="开关偏好" />
+    </PreferenceCategory>-->
+    <PreferenceCategory android:title="账户首选项" />
+    <!--
+
+    -->
+    <PreferenceScreen
+        android:key="main_activity"
+        android:summary="主MainActivity"
+        android:title="要打卡的MainActivity">
+        <intent
+            android:action="com.study.second"
+            android:data="yangminghan"
+            android:targetClass="com.study.yang.accoutmanagerdemokotlin.MainActivity"
+            android:targetPackage="com.study.yang.accoutmanagerdemokotlin" />
+
+    </PreferenceScreen>
+</PreferenceScreen>
